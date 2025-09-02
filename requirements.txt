@@ -3,3 +3,4 @@ numpy
 folium
 branca
 matplotlib
+seaborn
