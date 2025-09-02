@@ -1,0 +1,24 @@
+site_name: SG Rainfall Feature Engineering
+repo_url: https://github.com/quekyuchern/openmeteo_data
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            merge_init_into_class: true
+
+nav:
+  - Home: index.md
+  - Feature Engineering: feature_engineering.md
+  - API Reference:
+      - feature_engin: api/feature_engin.md
